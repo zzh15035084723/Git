@@ -6,5 +6,6 @@ from .views import *
 urlpatterns = [
     path('',link),
     path('index/',index,name='index'),
-    path('zyc/',zyc,name='zyc')
-]
+    path('zyc/',zyc,name='zyc'),
+    path('mlh/',mlh,name='mlh')
+    ]

@@ -12,3 +12,5 @@ def index(request):
 
 def zyc(request):
     return render(request,'zyc.html')
+def mlh(request):
+    return render(request,'mlh.html')
