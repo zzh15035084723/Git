@@ -9,3 +9,6 @@ def link(request):
 
 def index(request):
     return render(request,'index.html')
+
+def zyc(request):
+    return render(request,'zyc.html')
